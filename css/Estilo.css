@@ -234,7 +234,7 @@ body{
 	text-align: center;
 	display:inline-block;
 	}
-	.Menu:hover{
+	.Botones:hover{
 	box-shadow:0 0 10px blue;
 	transform:scale(1.3);
 	}
