@@ -1,0 +1,240 @@
+body{
+	Background-image: url("../imagenes/fondo3.png");
+	font-family:"Brush Script MT", "arial";
+	color:#FFFFFF;
+	font-size:40px;
+	}
+	P{
+		text-align:justify;
+		font-family:"Brush Script MT";
+		color:white;
+		font-size:30px;
+	 }
+	hr{
+		 border: 3px solid BLACK;
+		 border-radius: 5px;
+	 }
+	table,tr,td{
+		 border: 3px solid;
+		 border-color: #5A156C;
+		 text-align: center;
+		 background-color: #694B71;
+		 Font-size: 20px;
+			 }
+	th{
+		 background-color:#FFFFFF;
+	  }
+	ul{
+		font-family:"Brush Script MT";
+		font-size:25px;
+		list-style-type:circle;
+		list-style-position:inside;
+	}
+	.titulo{
+	font-size:50px;
+	color: RED;
+	Font-family: "Bell MT", monospace, "Times new roman";
+	text-align: center;
+	font-weight. bold;
+	}
+	ol{
+		font-family:"Brush Script MT";
+		font-size:25px;
+		list-style-type:upper-roman;
+		list-style-position:inside;
+	}
+	.pie{
+	font-size: 8px;
+	color: with;
+	Font-family: "Bell MT";
+	text-align: center;
+	font-weight. bold;
+	}
+	.Tablas{
+	font-size:20px;
+	Font-family:Arial;
+	text-align: center;
+	}
+	.Marquesina{
+		height:350px;
+		width:525px;
+	}
+	.Botones{
+		height:50px;
+		width:50px;
+		border-radius:50%;
+	}
+	.Imgtablas{
+		height:275px;
+		width:150px;
+	}
+	.Imagen{
+		height:400px;
+		width:600px;
+		border-radius:2px solid #082D6D;
+	}
+	@font-face{
+		font-family: Titulos;
+		src: url(../Fuentes/fuego.ttf);
+	}
+	@font-face{
+		font-family: Subtitulos;
+		src: url(../Fuentes/cursivan.ttf);
+	}
+	@font-face{
+		font-family: Texto;
+		src: url(../Fuentes/cursivae.ttf);
+	}
+	@font-face{
+		font-family: Tablas;
+		src: url(../Fuentes/splash.ttf);
+	}
+	@font-face{
+		font-family: copy;
+		src. url(../Fuentes/Wigglye.ttf);
+	}
+	.google{
+		font-family: 'Playfair Display', serif;
+		font-size: 8px;
+		color: black;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	div#top{
+		margin:auto;
+		width: 60%;
+		height: 75px;
+		background-color:#7C210E;
+	}
+	div#principal{
+		margin: auto;
+		margin-top:15px;
+		width:100%;
+		height: 350px;
+		background-color:#6B0E0E;
+	}
+	div#pierr{
+		margin: auto;
+		margin-top: 15px;
+		width: 100%;
+		height: 50px;
+		background-color:#000000;
+	}
+	div#Botones{
+		margin: auto;
+		margin-top:100px;
+		width:150%;
+		height:150px;
+		background-color:#190B2A;
+	}
+	div#principal2{
+		margin: auto;
+		margin-top: 15px;
+		width: 100%;
+		height: 1600px;
+		background-color:#6B0E0E;
+	}
+	
+	.caja{
+		height: 300px;
+		width: 250px;
+		border: 1px solid red;
+		margin: 5px;
+		color: purple;
+		text-align: center;
+		display: inline-block;
+	}
+	.caja:hover{
+		box-shadow: 0 0 10px red;
+		transform: scale(1.3);
+	}
+	.caja-texto{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 20px;
+		color: purple;
+		font-weight: bold;
+		border-color:#000000;
+	}
+	.texto-adicional{
+		padding-top:5px;
+		font-size:15px;
+	}
+	.carrousel{
+		width:600px;
+		margin:auto;
+		box-sizing:border-box;
+	}
+	.contecarrousel{
+		width:100%;
+		height:400px;
+		overflow:hidden;
+		box-sizing:border-box;
+	}
+	.itemcarrousel{
+		position:relative;
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	.carrouseltarjeta{
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	.carrouselflechas{
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		height:100%;
+		width:100%;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:20px;
+		box-sizing:border-box;
+	}
+	.carrouselflechas > i:hover {
+		cursor: pointer;
+	}
+	.carrouselcontroller{
+		width:100%;
+		display: flex;
+		justify-content:space-evenly;
+	}
+	.carrouselcontroller > a{
+		text-decoration:none;
+		font-size:32px;
+		color: grey;
+	}
+	.carrouselflechas > a > i{
+		color: white;
+	}
+	.descripcion{
+		color:black;
+		border-color:black;
+		text-align:center;
+		background-color:black;
+		font-size:30px;
+		width:80%;
+	}
+	.menu{
+	height:60px;
+	width:50px;
+	background-image:radial-gradient;
+	margin:5px;
+	color:black;
+	text-align: center;
+	display:inline-block;
+	}
+	.Menu:hover{
+	box-shadow:0 0 10px blue;
+	transform:scale(1.3);
+	}
